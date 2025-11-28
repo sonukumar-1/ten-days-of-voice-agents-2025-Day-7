@@ -1,0 +1,195 @@
+Loading env from: /Users/himanshujha/ten-days-of-voice-agents-2025/backend/.env.local
+LIVEKIT_URL: wss://voice-agent-l98evavb.livekit.cloud
+DEEPGRAM_API_KEY: Present
+{"level": "INFO", "name": "livekit.agents", "message": "starting worker", "version": "1.3.4", "rtc-version": "1.0.19", "timestamp": "2025-11-25T15:39:24.136590+00:00"}
+{"level": "INFO", "name": "livekit.agents", "message": "starting inference executor", "timestamp": "2025-11-25T15:39:24.136726+00:00"}
+{"level": "INFO", "name": "livekit.agents", "message": "initializing process", "pid": 7640, "inference": true, "timestamp": "2025-11-25T15:39:24.149353+00:00"}
+Could not find model livekit/turn-detector with revision v0.4.1-intl. Make sure you have downloaded the model before running the agent. Use `python3 your_agent.py download-files` to download the models.
+error initializing inference runner
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/livekit/agents/ipc/inference_proc_lazy_main.py", line 69, in initialize
+    runner.initialize()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/livekit/plugins/turn_detector/base.py", line 146, in initialize
+    raise RuntimeError(
+    ...<2 lines>...
+    ) from None
+RuntimeError: livekit-plugins-turn-detector initialization failed. Could not find model livekit/turn-detector with revision v0.4.1-intl.
+{"level": "INFO", "name": "livekit.agents", "message": "process initialized", "pid": 7640, "inference": true, "elapsed_time": 2.46, "timestamp": "2025-11-25T15:39:26.607541+00:00"}
+{"level": "ERROR", "name": "livekit.agents", "message": "worker failed", "exc_info": "Traceback (most recent call last):\n  File \"/opt/anaconda3/lib/python3.13/site-packages/livekit/agents/cli/cli.py\", line 1283, in _worker_run\n    await server.run(devmode=args.devmode, unregistered=jupyter)\n  File \"/opt/anaconda3/lib/python3.13/site-packages/livekit/agents/worker.py\", line 643, in run\n    await self._http_server.start()\n  File \"/opt/anaconda3/lib/python3.13/site-packages/livekit/agents/utils/http_server.py\", line 27, in start\n    self._server = await self._loop.create_server(handler, self._host, self._port)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/anaconda3/lib/python3.13/asyncio/base_events.py\", line 1622, in create_server\n    raise OSError(err.errno, msg) from None\nOSError: [Errno 48] error while attempting to bind on address ('::', 8081, 0, 0): [errno 48] address already in use", "timestamp": "2025-11-25T15:39:26.609587+00:00"}
+{"level": "INFO", "name": "livekit.agents", "message": "draining worker", "id": "unregistered", "timeout": 1800, "timestamp": "2025-11-25T15:39:26.612560+00:00"}
+{"level": "INFO", "name": "livekit.agents", "message": "shutting down worker", "id": "unregistered", "timestamp": "2025-11-25T15:39:26.612690+00:00"}
+╭─ Traceback (most recent call last) ──╮
+│ /opt/anaconda3/lib/python3.13/site-p │
+│ ackages/livekit/agents/cli/cli.py:14 │
+│ 32 in start                          │
+│                                      │
+│   1429 │   │   if drain_timeout is n │
+│   1430 │   │   │   server.update_opt │
+│   1431 │   │                         │
+│ ❱ 1432 │   │   _run_worker(          │
+│   1433 │   │   │   server=server,    │
+│   1434 │   │   │   args=proto.CliArg │
+│   1435 │   │   │   │   log_level=log │
+│                                      │
+│ ╭───────────── locals ─────────────╮ │
+│ │       api_key = 'APIMNgq4piHk5w… │ │
+│ │    api_secret = 'JfErW9qo2DOTVN… │ │
+│ │ drain_timeout = None             │ │
+│ │     log_level = <LogLevel.info:  │ │
+│ │                 'INFO'>          │ │
+│ │        server = <livekit.agents… │ │
+│ │                 object at        │ │
+│ │                 0x10fe85a90>     │ │
+│ │           url = 'wss://voice-ag… │ │
+│ ╰──────────────────────────────────╯ │
+│                                      │
+│ /opt/anaconda3/lib/python3.13/site-p │
+│ ackages/livekit/agents/cli/cli.py:13 │
+│ 06 in _run_worker                    │
+│                                      │
+│   1303 │   │   │   if not args.devmo │
+│   1304 │   │   │   │   loop.run_unti │
+│   1305 │   │   │                     │
+│ ❱ 1306 │   │   │   loop.run_until_co │
+│   1307 │   │   │                     │
+│   1308 │   │   │   if watch_client:  │
+│   1309 │   │   │   │   loop.run_unti │
+│                                      │
+│ ╭───────────── locals ─────────────╮ │
+│ │          args = CliArgs(         │ │
+│ │                 │                │ │
+│ │                 log_level='INFO… │ │
+│ │                 │                │ │
+│ │                 url='wss://voic… │ │
+│ │                 │                │ │
+│ │                 api_key='APIMNg… │ │
+│ │                 │                │ │
+│ │                 api_secret='JfE… │ │
+│ │                 │                │ │
+│ │                 devmode=False,   │ │
+│ │                 │                │ │
+│ │                 reload=False,    │ │
+│ │                 │                │ │
+│ │                 reload_count=0,  │ │
+│ │                 │   mp_cch=None  │ │
+│ │                 )                │ │
+│ │             c = None             │ │
+│ │  exit_triggered False            │ │
+│ │               =                  │ │
+│ │       jupyter = False            │ │
+│ │          loop = <_UnixSelectorE… │ │
+│ │                 running=False    │ │
+│ │                 closed=True      │ │
+│ │                 debug=False>     │ │
+│ │     main_task = <Task finished   │ │
+│ │                 name='worker_ma… │ │
+│ │                 coro=<_run_work… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 result=None>     │ │
+│ │        server = <livekit.agents… │ │
+│ │                 object at        │ │
+│ │                 0x10fe85a90>     │ │
+│ │           sig = <Signals.SIGTER… │ │
+│ │                 15>              │ │
+│ │          task = <Task cancelled  │ │
+│ │                 name='Task-9'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │         tasks = {                │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-4'    │ │
+│ │                 coro=<Inference… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-7'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-5'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-8'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-2'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-6'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 │   <Task        │ │
+│ │                 cancelled        │ │
+│ │                 name='Task-9'    │ │
+│ │                 coro=<Supervise… │ │
+│ │                 done, defined at │ │
+│ │                 /opt/anaconda3/… │ │
+│ │                 }                │ │
+│ │  watch_client = None             │ │
+│ ╰──────────────────────────────────╯ │
+│                                      │
+│ /opt/anaconda3/lib/python3.13/asynci │
+│ o/base_events.py:725 in              │
+│ run_until_complete                   │
+│                                      │
+│    722 │   │   if not future.done(): │
+│    723 │   │   │   raise RuntimeErro │
+│    724 │   │                         │
+│ ❱  725 │   │   return future.result( │
+│    726 │                             │
+│    727 │   def stop(self):           │
+│    728 │   │   """Stop running the e │
+│                                      │
+│ ╭───────────── locals ─────────────╮ │
+│ │   future = <Task finished        │ │
+│ │            name='Task-11'        │ │
+│ │            coro=<AgentServer.ac… │ │
+│ │            done, defined at      │ │
+│ │            /opt/anaconda3/lib/p… │ │
+│ │            exception=AssertionE… │ │
+│ │ new_task = True                  │ │
+│ │     self = <_UnixSelectorEventL… │ │
+│ │            running=False         │ │
+│ │            closed=True           │ │
+│ │            debug=False>          │ │
+│ ╰──────────────────────────────────╯ │
+│                                      │
+│ /opt/anaconda3/lib/python3.13/site-p │
+│ ackages/livekit/agents/worker.py:867 │
+│  in aclose                           │
+│                                      │
+│    864 │   │   │                     │
+│    865 │   │   │   logger.info("shut │
+│    866 │   │   │                     │
+│ ❱  867 │   │   │   assert self._clos │
+│    868 │   │   │   assert self._http │
+│    869 │   │   │   assert self._api  │
+│    870 │   │   │   assert self._http │
+│                                      │
+│ ╭───────────── locals ─────────────╮ │
+│ │ self = <livekit.agents.worker.A… │ │
+│ │        object at 0x10fe85a90>    │ │
+│ ╰──────────────────────────────────╯ │
+╰──────────────────────────────────────╯
+AssertionError
+worker process is not responding.. worker crashed?
+Loading env from: /Users/himanshujha/ten-days-of-voice-agents-2025/backend/.env.local
+LIVEKIT_URL: wss://voice-agent-l98evavb.livekit.cloud
+DEEPGRAM_API_KEY: Present
