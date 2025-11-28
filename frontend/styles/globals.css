@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-radius: var(--radius);
+
+  --animate-float: float 20s ease-in-out infinite;
+  --animate-float-delayed: float 25s ease-in-out infinite reverse;
+  --animate-gradient: gradient 8s ease infinite;
+  --animate-shimmer: shimmer 2s linear infinite;
+
+  @keyframes float {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+
+    33% {
+      transform: translate(30px, -50px) rotate(10deg);
+    }
+
+    66% {
+      transform: translate(-20px, 20px) rotate(-5deg);
+    }
+
+    100% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes shimmer {
+    from {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.9) translateY(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+}
+
+@keyframes flame-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 25px -5px rgba(214, 35, 0, 0.6);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 50px -10px rgba(229, 95, 37, 0.8);
+    transform: scale(1.05);
+  }
+}
+
+:root {
+  --background: #F5EBDC;
+  /* Burger King Cream */
+  --foreground: #502314;
+  /* Burger King Brown */
+
+  --card: #ffffff;
+  --card-foreground: #502314;
+
+  --popover: #ffffff;
+  --popover-foreground: #502314;
+
+  --primary: #D62300;
+  /* Burger King Red */
+  --primary-foreground: #ffffff;
+
+  --secondary: #E55F25;
+  /* Burger King Orange */
+  --secondary-foreground: #ffffff;
+
+  --muted: #F5EBDC;
+  /* Cream */
+  --muted-foreground: #502314;
+
+  --accent: #E55F25;
+  /* Burger King Orange */
+  --accent-foreground: #ffffff;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #502314;
+  --input: #502314;
+  --ring: #D62300;
+
+  --radius: 1rem;
+}
+
+.dark {
+  --background: #502314;
+  /* Burger King Brown */
+  --foreground: #F5EBDC;
+  /* Cream */
+
+  --card: #2d140b;
+  --card-foreground: #F5EBDC;
+
+  --popover: #2d140b;
+  --popover-foreground: #F5EBDC;
+
+  --primary: #D62300;
+  --primary-foreground: #ffffff;
+
+  --secondary: #E55F25;
+  --secondary-foreground: #ffffff;
+
+  --muted: #2d140b;
+  --muted-foreground: #F5EBDC;
+
+  --accent: #E55F25;
+  --accent-foreground: #ffffff;
+
+  --destructive: #7f1d1d;
+  --destructive-foreground: #ffffff;
+
+  --border: #F5EBDC;
+  --input: #F5EBDC;
+  --ring: #D62300;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

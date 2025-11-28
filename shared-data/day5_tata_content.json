@@ -1,0 +1,117 @@
+{
+    "company_info": {
+        "name": "Tata Group",
+        "description": "A global enterprise, headquartered in India, comprising 30 companies across ten verticals. The group operates in more than 100 countries across six continents. From salt to software, we are an integral part of your daily life.",
+        "mission": "To improve the quality of life of the communities we serve globally, through long-term stakeholder value creation based on Leadership with Trust.",
+        "founded": 1868
+    },
+    "verticals": [
+        {
+            "id": "tech",
+            "name": "Technology",
+            "companies": [
+                "Tata Consultancy Services (TCS)",
+                "Tata Elxsi",
+                "Tata Digital",
+                "Tata Technologies"
+            ],
+            "description": "IT services, consulting, and business solutions."
+        },
+        {
+            "id": "auto",
+            "name": "Automotive",
+            "companies": [
+                "Tata Motors",
+                "Jaguar Land Rover"
+            ],
+            "description": "Cars, utility vehicles, buses, trucks, and defense vehicles."
+        },
+        {
+            "id": "steel",
+            "name": "Steel",
+            "companies": [
+                "Tata Steel"
+            ],
+            "description": "One of the world's most geographically diversified steel producers."
+        },
+        {
+            "id": "consumer",
+            "name": "Consumer & Retail",
+            "companies": [
+                "Tata Consumer Products",
+                "Titan",
+                "Voltas",
+                "Trent",
+                "Infiniti Retail (Cromā)",
+                "BigBasket"
+            ],
+            "description": "FMCG, jewelry, watches, eyewear, electronics retail, and fashion."
+        },
+        {
+            "id": "hospitality",
+            "name": "Hospitality & Travel",
+            "companies": [
+                "Indian Hotels Company (Taj Hotels)",
+                "Air India",
+                "Vistara"
+            ],
+            "description": "Luxury hotels, palaces, resorts, and full-service airlines."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What does Tata Group do?",
+            "answer": "We are a global conglomerate operating in 10 verticals including Technology, Automotive, Steel, Consumer Products, Hospitality, and more. We make everything from salt to software and cars to chemicals."
+        },
+        {
+            "question": "How can I contact sales for a specific company?",
+            "answer": "Each Tata company has its own dedicated sales channels. For example, for IT services you can contact TCS, for vehicles Tata Motors, and for steel Tata Steel. I can help direct you if you tell me what you are looking for."
+        },
+        {
+            "question": "Do you offer sustainability solutions?",
+            "answer": "Yes, sustainability is core to our business. Companies like Tata Power are leading in renewable energy, and Tata Chemicals focuses on green chemistry. We are committed to long-term stakeholder value creation."
+        },
+        {
+            "question": "Where are you located?",
+            "answer": "We are headquartered in Mumbai, India, but we operate in over 100 countries across six continents."
+        },
+        {
+            "question": "Can I buy products online?",
+            "answer": "Yes, many of our consumer brands like Tata CLiQ, BigBasket, Croma, and Titan have robust online platforms for purchasing products directly."
+        }
+    ],
+    "lead_schema": {
+        "fields": [
+            {
+                "name": "name",
+                "description": "Full Name of the lead",
+                "required": true
+            },
+            {
+                "name": "company",
+                "description": "Company Name",
+                "required": true
+            },
+            {
+                "name": "email",
+                "description": "Email Address",
+                "required": true
+            },
+            {
+                "name": "role",
+                "description": "Job Role/Title",
+                "required": false
+            },
+            {
+                "name": "interest",
+                "description": "Which vertical or product are they interested in?",
+                "required": true
+            },
+            {
+                "name": "timeline",
+                "description": "When are they planning to purchase/engage? (Now/Soon/Later)",
+                "required": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "company_info": {
+        "name": "Physics Wallah",
+        "description": "Physics Wallah (PW) is India's leading EdTech platform, democratizing education at scale. We provide high-quality, affordable learning for JEE, NEET, UPSC, and more.",
+        "mission": "To provide quality education to every child in India, regardless of their financial background."
+    },
+    "verticals": [
+        {
+            "name": "JEE (Joint Entrance Examination)",
+            "description": "Comprehensive preparation for JEE Mains and Advanced. Batches include Arjuna (11th), Lakshya (12th), and Prayas (Droppers)."
+        },
+        {
+            "name": "NEET (National Eligibility cum Entrance Test)",
+            "description": "Top-tier medical entrance coaching. Batches include Yakeen (Droppers), Arjuna (11th), and Lakshya (12th)."
+        },
+        {
+            "name": "Foundation (Class 9 & 10)",
+            "description": "Building strong fundamentals for Boards and future competitive exams like NTSE and Olympiads."
+        },
+        {
+            "name": "UPSC (Union Public Service Commission)",
+            "description": "Affordable and result-oriented coaching for Civil Services Examination."
+        },
+        {
+            "name": "PW Skills",
+            "description": "Upskilling courses in Data Science, Full Stack Web Development, Java, C++, and more to make you industry-ready."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What is the fee structure?",
+            "answer": "Our batches are extremely affordable, starting from as low as ₹3000 to ₹4500 for a full year course. Please check the PW App for the latest offers."
+        },
+        {
+            "question": "Do you provide study material?",
+            "answer": "Yes, we provide comprehensive DPPs (Daily Practice Problems), PDF notes, and optional hard copy modules delivered to your doorstep."
+        },
+        {
+            "question": "Is there doubt support?",
+            "answer": "Absolutely! We have a dedicated doubt engine where you can ask questions and get video solutions instantly."
+        },
+        {
+            "question": "Can I watch recorded lectures?",
+            "answer": "Yes, all live classes are recorded and available for you to watch anytime, as many times as you want."
+        }
+    ]
+}

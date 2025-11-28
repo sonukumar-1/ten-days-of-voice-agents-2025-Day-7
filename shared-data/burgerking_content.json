@@ -1,0 +1,114 @@
+[
+    {
+        "id": "bk-001",
+        "name": "Whopper",
+        "price": 199,
+        "category": "Burgers",
+        "description": "Our signature flame-grilled patty topped with juicy tomatoes, fresh cut lettuce, creamy mayonnaise, crunchy pickles, and sliced white onions on a soft sesame seed bun."
+    },
+    {
+        "id": "bk-002",
+        "name": "Chicken Whopper",
+        "price": 219,
+        "category": "Burgers",
+        "description": "Flame-grilled chicken patty topped with juicy tomatoes, fresh cut lettuce, creamy mayonnaise, crunchy pickles, and sliced white onions on a soft sesame seed bun."
+    },
+    {
+        "id": "bk-003",
+        "name": "Veg Whopper",
+        "price": 179,
+        "category": "Burgers",
+        "description": "A 100% veg patty, topped with juicy tomatoes, fresh cut lettuce, creamy mayonnaise, crunchy pickles, and sliced white onions on a soft sesame seed bun."
+    },
+    {
+        "id": "bk-004",
+        "name": "Chicken Royale",
+        "price": 189,
+        "category": "Burgers",
+        "description": "Crispy chicken breast with lettuce and creamy mayo on a sesame seed bun."
+    },
+    {
+        "id": "bk-005",
+        "name": "Crispy Veg",
+        "price": 79,
+        "category": "Burgers",
+        "description": "A crisp veggie patty, topped with fresh lettuce and creamy mayo."
+    },
+    {
+        "id": "bk-006",
+        "name": "Fries (Medium)",
+        "price": 119,
+        "category": "Sides",
+        "description": "Thick cut salted fries, golden on the outside and fluffy on the inside."
+    },
+    {
+        "id": "bk-007",
+        "name": "Fries (Large)",
+        "price": 139,
+        "category": "Sides",
+        "description": "Thick cut salted fries, golden on the outside and fluffy on the inside."
+    },
+    {
+        "id": "bk-008",
+        "name": "Onion Rings",
+        "price": 129,
+        "category": "Sides",
+        "description": "Golden crispy onion rings."
+    },
+    {
+        "id": "bk-009",
+        "name": "Chicken Fries",
+        "price": 149,
+        "category": "Sides",
+        "description": "Breaded, crispy chicken strips shaped like fries."
+    },
+    {
+        "id": "bk-010",
+        "name": "Chocolate Shake",
+        "price": 159,
+        "category": "Beverages",
+        "description": "Creamy chocolate milkshake."
+    },
+    {
+        "id": "bk-011",
+        "name": "Strawberry Shake",
+        "price": 159,
+        "category": "Beverages",
+        "description": "Creamy strawberry milkshake."
+    },
+    {
+        "id": "bk-012",
+        "name": "Pepsi (Medium)",
+        "price": 99,
+        "category": "Beverages",
+        "description": "Refreshing Pepsi."
+    },
+    {
+        "id": "bk-013",
+        "name": "BK Sundae",
+        "price": 79,
+        "category": "Desserts",
+        "description": "Soft serve ice cream topped with chocolate fudge."
+    },
+    {
+        "id": "bk-014",
+        "name": "Whopper Meal Deal",
+        "price": 299,
+        "category": "Deals",
+        "description": "1 Veg or Chicken Whopper + 1 Medium Fries + 1 Pepsi."
+    },
+    {
+        "id": "bk-015",
+        "name": "Family Feast",
+        "price": 599,
+        "category": "Deals",
+        "description": "2 Whoppers + 2 Medium Fries + 2 Pepsis + 1 Onion Rings."
+    },
+    {
+        "id": "bk-016",
+        "name": "Snack Box",
+        "price": 199,
+        "category": "Deals",
+        "description": "1 Crispy Veg + 1 Small Fries + 1 Pepsi."
+    }
+]

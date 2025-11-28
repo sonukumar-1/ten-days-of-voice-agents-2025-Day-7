@@ -1,0 +1,180 @@
+[
+    {
+        "id": "g_milk_1",
+        "name": "Organic Whole Milk",
+        "category": "Groceries",
+        "price": 5.99,
+        "unit": "gallon",
+        "tags": [
+            "dairy",
+            "organic",
+            "breakfast"
+        ]
+    },
+    {
+        "id": "g_eggs_1",
+        "name": "Free Range Eggs",
+        "category": "Groceries",
+        "price": 4.50,
+        "unit": "dozen",
+        "tags": [
+            "dairy",
+            "breakfast",
+            "protein"
+        ]
+    },
+    {
+        "id": "g_bread_1",
+        "name": "Whole Wheat Bread",
+        "category": "Groceries",
+        "price": 3.25,
+        "unit": "loaf",
+        "tags": [
+            "bakery",
+            "grains",
+            "sandwich"
+        ]
+    },
+    {
+        "id": "g_pb_1",
+        "name": "Creamy Peanut Butter",
+        "category": "Groceries",
+        "price": 4.99,
+        "unit": "jar",
+        "tags": [
+            "pantry",
+            "sandwich",
+            "protein"
+        ]
+    },
+    {
+        "id": "g_jelly_1",
+        "name": "Strawberry Preserves",
+        "category": "Groceries",
+        "price": 3.75,
+        "unit": "jar",
+        "tags": [
+            "pantry",
+            "sandwich",
+            "sweet"
+        ]
+    },
+    {
+        "id": "g_pasta_1",
+        "name": "Spaghetti Pasta",
+        "category": "Groceries",
+        "price": 1.99,
+        "unit": "box",
+        "tags": [
+            "pantry",
+            "dinner",
+            "italian"
+        ]
+    },
+    {
+        "id": "g_sauce_1",
+        "name": "Marinara Sauce",
+        "category": "Groceries",
+        "price": 3.50,
+        "unit": "jar",
+        "tags": [
+            "pantry",
+            "dinner",
+            "italian"
+        ]
+    },
+    {
+        "id": "g_cheese_1",
+        "name": "Parmesan Cheese",
+        "category": "Groceries",
+        "price": 5.50,
+        "unit": "wedge",
+        "tags": [
+            "dairy",
+            "dinner",
+            "italian"
+        ]
+    },
+    {
+        "id": "s_chips_1",
+        "name": "Sea Salt Potato Chips",
+        "category": "Snacks",
+        "price": 2.99,
+        "unit": "bag",
+        "tags": [
+            "snack",
+            "salty"
+        ]
+    },
+    {
+        "id": "s_cookies_1",
+        "name": "Chocolate Chip Cookies",
+        "category": "Snacks",
+        "price": 4.50,
+        "unit": "box",
+        "tags": [
+            "snack",
+            "sweet",
+            "dessert"
+        ]
+    },
+    {
+        "id": "p_pizza_1",
+        "name": "Pepperoni Pizza",
+        "category": "Prepared Food",
+        "price": 12.99,
+        "unit": "whole",
+        "tags": [
+            "dinner",
+            "hot",
+            "italian"
+        ]
+    },
+    {
+        "id": "p_salad_1",
+        "name": "Caesar Salad",
+        "category": "Prepared Food",
+        "price": 8.99,
+        "unit": "bowl",
+        "tags": [
+            "lunch",
+            "healthy",
+            "fresh"
+        ]
+    },
+    {
+        "id": "p_sandwich_1",
+        "name": "Turkey Club Sandwich",
+        "category": "Prepared Food",
+        "price": 9.50,
+        "unit": "whole",
+        "tags": [
+            "lunch",
+            "fresh"
+        ]
+    },
+    {
+        "id": "g_banana_1",
+        "name": "Bananas",
+        "category": "Groceries",
+        "price": 0.69,
+        "unit": "lb",
+        "tags": [
+            "produce",
+            "fruit",
+            "healthy"
+        ]
+    },
+    {
+        "id": "g_apple_1",
+        "name": "Honeycrisp Apples",
+        "category": "Groceries",
+        "price": 2.49,
+        "unit": "lb",
+        "tags": [
+            "produce",
+            "fruit",
+            "healthy"
+        ]
+    }
+]

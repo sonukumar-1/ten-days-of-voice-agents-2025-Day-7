@@ -1,0 +1,93 @@
+[
+    {
+        "id": "mcd-001",
+        "name": "McAloo Tikki Burger",
+        "price": 65,
+        "category": "Burgers",
+        "description": "A golden fried potato patty with special Indian spices, topped with tomato, onion, and vegetable sauce."
+    },
+    {
+        "id": "mcd-002",
+        "name": "Maharaja Mac",
+        "price": 230,
+        "category": "Burgers",
+        "description": "The tallest burger with double decker grilled chicken patties, jalapeños, onions, cheese, tomatoes, lettuce and classic Habanero sauce."
+    },
+    {
+        "id": "mcd-003",
+        "name": "McSpicy Paneer Burger",
+        "price": 185,
+        "category": "Burgers",
+        "description": "Rich and filling cottage cheese patty coated in spicy, crispy batter topped with a creamy sauce and crispy lettuce."
+    },
+    {
+        "id": "mcd-004",
+        "name": "McSpicy Chicken Burger",
+        "price": 195,
+        "category": "Burgers",
+        "description": "Tender and juicy chicken patty coated in spicy, crispy batter topped with a creamy sauce and crispy lettuce."
+    },
+    {
+        "id": "mcd-005",
+        "name": "McVeggie Burger",
+        "price": 140,
+        "category": "Burgers",
+        "description": "A delectable patty filled with potatoes, peas, carrots and indian spices. Topped with crispy lettuce, mayonnaise, and packed into toasted sesame buns."
+    },
+    {
+        "id": "mcd-006",
+        "name": "Fries (Medium)",
+        "price": 115,
+        "category": "Sides",
+        "description": "World Famous Fries, crispy on the outside, fluffy on the inside."
+    },
+    {
+        "id": "mcd-007",
+        "name": "Fries (Large)",
+        "price": 135,
+        "category": "Sides",
+        "description": "World Famous Fries, crispy on the outside, fluffy on the inside."
+    },
+    {
+        "id": "mcd-008",
+        "name": "Peri Peri Fries",
+        "price": 145,
+        "category": "Sides",
+        "description": "Crispy fries shaken with spicy Peri Peri seasoning."
+    },
+    {
+        "id": "mcd-009",
+        "name": "McFlurry Oreo",
+        "price": 120,
+        "category": "Desserts",
+        "description": "Soft serve ice cream with crumbled Oreo cookies."
+    },
+    {
+        "id": "mcd-010",
+        "name": "Soft Serve Cone",
+        "price": 55,
+        "category": "Desserts",
+        "description": "Creamy vanilla soft serve in a crispy cone."
+    },
+    {
+        "id": "mcd-011",
+        "name": "Coke (Medium)",
+        "price": 95,
+        "category": "Beverages",
+        "description": "Refreshing Coca-Cola."
+    },
+    {
+        "id": "mcd-012",
+        "name": "Sprite (Medium)",
+        "price": 95,
+        "category": "Beverages",
+        "description": "Refreshing Sprite."
+    },
+    {
+        "id": "mcd-013",
+        "name": "McPuff Pizza",
+        "price": 55,
+        "category": "Sides",
+        "description": "Crispy brown crust with a generous filling of rich tomato sauce, mixed with carrots, bell peppers, beans, onions and mozzarella."
+    }
+]
